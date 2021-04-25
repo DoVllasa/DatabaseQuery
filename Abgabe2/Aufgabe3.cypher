@@ -22,7 +22,7 @@ WHERE p1 <> p2
 MERGE (p1)-[k:KNOWS]-(p2)
 RETURN COUNT(k)
 
-// Notiz: 1588 eingefügte Relationen.
+// Notiz: 1646 eingefügte Relationen.
 
 // c) Geben Sie Empfehlungen für mögliche Filmpartner von Keanu Reeves an. 
 //    Diese sollen Keanu Reeves nicht direkt kennen, aber Bekannte sollen sie kennen.
